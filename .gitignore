@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# Credenciales (nunca subir)
+kaggle.json
+.env
+
+# Sistema
+.DS_Store
+Thumbs.db
