@@ -33,6 +33,18 @@ Agrega también: requirements.txt, .gitignore (Python) y LICENSE (MIT).
 - Gráficas con título, ejes con nombre y unidades, y leyenda cuando haga falta.
 - Antes de subirlo, limpiar las salidas pesadas y volver a ejecutarlo completo.
 
+## Etapas del proyecto
+1. Preparación de datos (Módulo 1): explorar tipos, nulos, duplicados y errores; limpiar y documentar.
+2. Análisis estadístico (Módulo 2): media, mediana, moda, rango, varianza, desviación estándar, comparar variables, outliers e hipótesis.
+3. Modelo predictivo (Módulo 3): por confirmar cuando tenga el contenido del módulo.
+
+## Buenas prácticas: estadística (Etapa 2)
+- Presentar las estadísticas en tablas limpias (DataFrame redondeado a 2 decimales), no como prints sueltos.
+- Elegir la medida adecuada: si hay outliers o sesgo, explicar por qué la mediana representa mejor que la media.
+- Detectar outliers con la regla IQR y mostrarlos en un boxplot; explicar si son errores o ataques reales.
+- Cada hipótesis debe salir de un valor concreto de las tablas, no de suposiciones.
+- Debajo de cada resultado, una explicación en lenguaje sencillo pensada para un analista de seguridad.
+
 ## Buenas prácticas: modelo
 - Separar entrenamiento y prueba antes de cualquier ajuste; no usar el puerto de destino como entrada (fuga de datos).
 - Comparar siempre contra un modelo base (la clase más común).
